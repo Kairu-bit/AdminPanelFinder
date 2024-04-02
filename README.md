@@ -16,7 +16,6 @@ cd $HOME
 pkg update
 pkg upgrade
 pkg install git nodejs
-rm AdminPanelFinder
 git clone https://github.com/Kairu-bit/AdminPanelFinder
 cd AdminPanelFinder
 node AdminPanelFinder.mjs
